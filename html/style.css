@@ -1,0 +1,22 @@
+h2 {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.card-group {
+    display: inline-block;
+}
+
+.example {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.example #search_btn {
+    width: 25%;
+}
+
+.card-group .example2 {
+    margin: 20px auto;
+    width: 50%;
+}

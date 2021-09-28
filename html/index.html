@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>検索システム</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light" style="background-color:#2CA6FF">
+            <a href="#" class="navbar-brand" style="color:white"><b>検索システム</b></a>
+        </nav>
+        <div class="mt-4 card">
+            <div class="card-group">
+                <div class="example2" style="display:inline-block;">
+                    <h2 class="card-title">キーワード</h2>
+                    <input id="search_word" type="text" name="loin" placeholder="希望の求人を記入">
+                </div>
+                <div class="example2" style="display:inline;">
+                    <h2 class="card-title">ファイル名</h2>
+                    <input id="file_name" type="text" name="loin" placeholder="ファイル名を記入">
+                </div>
+                <div class="example">
+                    <button id="search_btn" class="btn btn-success"  name="button">検索</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="mt-4 card">
+            <h2 class="card-title">検索結果</h2>
+            <div class="w-100 h- m-3" style="height: 300px">
+                <textarea id="result_list" class="w-75 h-100"></textarea>
+            </div>
+        </div>
+        <div class="mt-4 card">
+            <h2 class="card-title">注意事項</h2>
+            <div class="card-body">
+                <p>キーワードとファイル名を記入してください。ファイル名は.csvまで</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
